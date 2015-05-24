@@ -28,13 +28,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
-  <!-- Javascript
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
-  <script type="text/javascript" src="http://d3js.org/topojson.v1.min.js"></script>
-  <script src="http://d3js.org/queue.v1.min.js"></script>
-  
-
 
 </head>
 <body>
@@ -44,25 +37,31 @@
   <div class="container">
     <div class="row">
       <div class="twelve columns" id="main-display">
-        
-        <div class="twelve columns" id="storyboard">
-          <h4>Storyboard Placeholder</h4>
-        </div>
-        
-        <div class="eleven columns" id="main-chart-container">
-          <h4>Main Chart Container</h4>
-          <div class="eleven columns" id="main-chart">
 
-          </div>
-        </div>
-
+        
         <div class="eleven columns" id="map-chart-container">
           <h4>Map Chart Container</h4>
-          <div class="eleven columns" id="map-chart">
+          <div class="row">
+            <div class="three columns" id="opportunity-container">
+              <h5>Opportunity Index</h4>
+            </div>
+            <div class="nine columns">
+              <div id="map-chart"></div>
+            </div>
             
           </div>
         </div>
-      
+
+        <div class="eleven columns" id="main-chart-container">
+          <h4>Main Chart Container</h4>
+          <button class="button-primary factor-button" value="count">Count</button>
+          <button class="button-primary factor-button" value="pct">Percent</button>
+          <button class="button-primary factor-button" value="rank">Rank</button>
+          <div class="eleven columns" id="main-chart">
+          <div id="small-multiples"></div>
+          </div>
+        </div>
+   
       </div>
     </div>
   </div>
@@ -70,6 +69,18 @@
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+  
+  <script src="js/libs/isotope.pkgd.min.js"></script>
+  <script src="js/libs/d3.js"></script>
+  <script src="js/libs/queue.min.js"></script>
+  <script type="text/javascript" src="http://d3js.org/topojson.v1.min.js"></script>
+  <script type="text/javascript" src="js/small_multiples.js"></script>
+
+
   <script src="js/aecf-map.js"></script>
+  <script src="js/small_multiples.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
