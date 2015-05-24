@@ -1,0 +1,95 @@
+body {
+	background-color: #f7eed4;
+}
+
+p {
+	font-family: "Helvetica","Arial","sans-serif";
+	font-style: normal;
+	font-size: 14px;
+	font-weight: 300;
+	color: #797973;
+}
+
+h4, h5, h6 {
+	font-family: "Helvetica","Arial","sans-serif";
+	font-style: normal;
+	font-weight: 500;
+}
+
+h2, h3 {
+	font-family: "Georgia", "Times", "serif";
+	font-style: normal;
+	font-weight: 400;
+	color:  #4b4b4b;
+}
+
+.red {
+	color: #f64b49;
+	}
+
+.nav {
+	color: #6f6f6f;
+	}
+	
+nav{ 
+	position:fixed;
+	background-color: #e9af1d;
+	}
+
+.navbar {
+  color: #e9af1d; 
+}
+		
+ 		
+.blue  {
+	color: #2fadc7;
+	}
+
+.box {
+	background-color: #e;
+	border: 1px solid #e4e4d9;
+	color: #5f5f5f;
+}
+
+.areagdp {
+	  fill:  #efefe8;
+	  fill-opacity: 0.6;
+	  stroke: #585a8b;
+	  stroke-width: 1.5px;
+	  clip-path: url(#clip);
+	}
+
+#chart {
+	position: relative;
+}
+#title {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	font-size: 30px;
+	font-weight: 100;
+}
+svg {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#about {
+	width: 550px;
+	top: 13px;
+	margin-bottom: 100px;
+	color: #666;
+	line-height: 17px;
+	position: absolute;
+	right: 80px;
+	text-align: right;
+	font-size: 12px;
+}
+#about div {
+	margin-bottom: 5px;
+}
+#social {
+	position: absolute;
+	top: 60px;
+	left: 20px;
+}
+
