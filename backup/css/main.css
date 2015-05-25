@@ -1,202 +1,11 @@
 body {
-	/*background-color: #005293;*/
+	background-color: #fff;
 }
 
 #main-display {
 	color: #fff;
-	margin-bottom: 20px;
 }
 
-#storyboard {
-	background-color: #F7EED4;
-	color: #fff;
-}
-
-#main-chart-container {
-}
-
-#main-chart {
-}
-
-#map-chart-container {
-}
-
-#map-chart {
-}
-
-#map-chart .background {
-	/*fill: #005293;*/
-}
-
-#main-chart-container button.button {
-	background-color: #fff;
-  	float: right;
-  	margin: 0 3px;
-}
-
-#opportunity-container {
-	color: #404040;
-}
-
-#opportunity-container h5 {
-	text-align: center;
-	text-transform: uppercase;
-	padding-top: 67px;
-	margin: 0;
-}
-
-#opportunity-score {
-	font-size: 9em;
-	font-weight: bolder;
-	font-family: Arial;
-	display: block;
-	text-align: center;
-}
-
-#domain-titles {
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-#domain-titles #title-economic {
-	background-color: #118B7E;
-}
-#domain-titles #title-education {
-	background-color: #752A8E;
-}
-#domain-titles #title-health {
-	background-color: #2176BC;
-}
-#domain-titles #title-family {
-	background-color: #D01F42;
-}
-
-#domain-titles h5 {
-  line-height: 18px;
-  padding: 0;
-  margin: 12px;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: bold;
-}
-
-#domain-titles div {
-	cursor: pointer;
-}
-
-.container {
-  width: 1050px;
-}
-
-h1 {
-  font-size: 26px;
-  padding: 0px 0 5px 0;
-  line-height: 1.2em;
-  color: #000;
-  margin-bottom: 0px;
-}
-
-#lead {
-  clear: both;
-  width: 600px;
-}
-
-#lead p {
-  color: #444;
-  font-family: Georgia,Palatino,serif;
-  font-size: 1.0em;
-  line-height: 1.4em;
-}
-
-.chart {
-  float: left;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-top:0;
-  padding-left:0;
-}
-
-svg {
-  font-size: 10px;
-}
-
-.background {
-  fill: none;
-}
-
-.area.economic{
-  fill: #118B7E;
-}
-.area.family{
-  fill: #D01F42;
-}
-.area.education{
-  fill: #752A8E;
-}
-.area.health{
-  fill: #2176BC;
-}
-.area.overall{
-  fill: #E9AF1D;
-}
-
-.line {
-  fill: none;
-  stroke: #74736c;
-  stroke-width: 1.4px;
-}
-
-.title {
-  font-size: 12px;
-}
-
-.axis line, .grid line {
-  stroke-width: .5px;
-  shape-rendering: crispEdges;
-  stroke: #fff;
-  opacity: 0.5;
-  pointer-events: none;
-}
-
-.axis path {
-  display: none;
-}
-
-.hidden {
-  display:none;
-  opacity: 0.0;
-}
-
-#button-wrap {
-  width: 220px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 40px;
-  margin-bottom: 10px;
-  padding-left: 5px;
-}
-
-
-.button.active {
-  box-shadow: inset 0px 0px 7px rgba(0,0,0,0.18);
-  pointer-events: none;
-  background-color: #e6e6e6;
-}
-
-#count {
-  border-radius: 5px 0px 0px 5px;
-}
-
-#name {
-  border-radius: 0px 5px 5px 0px;
-}
-
-#small-multiples text.title {
-	text-transform: capitalize;
-}
-
-
-/*********** CTODD ****************/
 .navbar {
   background-color: #E86421;
   padding: 0px;
@@ -358,5 +167,123 @@ a:hover {
   /* Re-overiding the width 100% declaration to match size of % based container */
   .has-docked-nav .navbar > .container {
     width: 90%; }
+}
+
+
+#map-chart {
+}
+
+#map-chart .background {
+	fill: #005293;
+}
+
+#main-chart-container button.button-primary {
+  float: right;
+  margin: 0 3px;
+}
+
+
+h1 {
+  font-size: 26px;
+  padding: 0px 0 5px 0;
+  line-height: 1.2em;
+  color: #000;
+  margin-bottom: 0px;
+}
+
+#lead {
+  clear: both;
+  width: 600px;
+}
+
+#lead p {
+  color: #444;
+  font-family: Arial,sans-serif;
+  font-size: 1.0em;
+  line-height: 1.4em;
+}
+
+.chart {
+  float: left;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-top:0;
+  padding-left:0;
+}
+
+svg {
+  font-size: 10px;
+}
+
+.background {
+  fill: none;
+}
+
+.area {
+  fill: #cec6b9;
+}
+
+.line {
+  fill: none;
+  stroke: #74736c;
+  stroke-width: 1.4px;
+}
+
+.title {
+  font-size: 12px;
+}
+
+.axis line, .grid line {
+  stroke-width: .5px;
+  shape-rendering: crispEdges;
+  stroke: #fff;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.axis path {
+  display: none;
+}
+
+.hidden {
+  display:none;
+  opacity: 0.0;
+}
+
+#button-wrap {
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.button {
+  cursor: pointer;
+  float: left;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  background: #fcfcfc;
+  border: 1px solid #cecece;
+  display: block;
+  padding-top: 5px;
+  margin-top: 10px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.button.active {
+  box-shadow: inset 0px 0px 7px rgba(0,0,0,0.18);
+  pointer-events: none;
+  background-color: #e6e6e6;
+}
+
+#count {
+  border-radius: 5px 0px 0px 5px;
+}
+
+#name {
+  border-radius: 0px 5px 5px 0px;
 }
 

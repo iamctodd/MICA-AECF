@@ -3,20 +3,20 @@
 
   d3.select("#small-multiples").selectAll("*").remove();
 
-  if ( state == undefined ) { state = "United States"; }
+  if ( state == undefined) { state = "United States"; }
   if ( factor == undefined) { factor = "count"; }
 
   var SmallMultiples, plotData, setupIsoytpe, transformData;
 
   SmallMultiples = function() {
     var area, bisect, caption, chart, circle, curYear, data, format, height, line, margin, mousemove, mouseout, mouseover, setupScales, width, xScale, xValue, yAxis, yScale, yValue;
-    width = 140;
+    width = 150;
     height = 120;
     margin = {
       top: 15,
       right: 10,
       bottom: 40,
-      left: 55
+      left: 35
     };
     data = [];
     circle = null;
@@ -70,7 +70,7 @@
         g = svg.select("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
         g.append("rect").attr("class", "background").style("pointer-events", "all").attr("width", width + margin.right).attr("height", height).on("mouseover", mouseover).on("mousemove", mousemove).on("mouseout", mouseout);
         lines = g.append("g");
-        lines.append("path").attr("class",function(d){ return "area economic"; }).style("pointer-events", "none").attr("d", function(c) {
+        lines.append("path").attr("class",function(d){ console.log(d); return "area"; }).style("pointer-events", "none").attr("d", function(c) {
           return area(c.values);
         });
         lines.append("path").attr("class", "line").style("pointer-events", "none").attr("d", function(c) {
@@ -201,7 +201,7 @@
       plotData("#small-multiples", data, plot);
       return setupIsoytpe();
     };
-    queue().defer(d3.csv, "data/domain-economic.csv").await(display);
+    queue().defer(d3.csv, "data/multi-state.csv").await(display);
     return d3.select("#button-wrap").selectAll("div").on("click", function() {
       var id;
       id = d3.select(this).attr("id");

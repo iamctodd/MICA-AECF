@@ -20,12 +20,13 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
 
 </head>
@@ -34,95 +35,36 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-
-    <nav class="navbar">
-      <div class="container">
-          <ul class="navbar-list">
-            <li class="navbar-item navbar-link">KIDS COUNT data center</li>
-            <li class="navbar-item"><a class="navbar-link" href="#examples">State Rankings</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="#examples">Data by...</a></li>
-            <li class="navbar-item">
-              <a class="navbar-link" href="#" data-popover="#moreNavPopover">Search[icon]</a>
-            </li>
-          </ul>
-      </div>  
-    </nav>
-
-    <div class="row">
-    
-      <div class="four columns">
-
-        <article class="story theme-summary">
-          <div class="thumb">
-          <img src="img/kid-needs-more.png" alt="">
-          </div>
-          <h6 class="">Economic</h6>
-          <p class="story-title" title="">Every Kid Needs More</p>
-        </article>
-
-      </div>
-      
-      <div class="four columns">
-        <article class="story theme-summary">
-          <div class="thumb">
-          <img src="img/family.png" alt="">
-          </div>
-          <h6 class="">Education</h6>
-          <p class="story-title" title="">Families Rising Up</p>
-        </article>
-      </div>
-
-      <div class="four columns">
-        <article class="story theme-summary">
-          <div class="thumb">
-          <img src="img/class.png" alt="">
-          </div>
-          <h6 class="">Family</h6>
-          <p class="story-title" title="">Every Kid Needs More</p>
-        </article>
-      </div>
-    
-    </div>
-
     <div class="row">
       <div class="twelve columns" id="main-display">
+
+        
         <div class="eleven columns" id="map-chart-container">
+          <h4>Map Chart Container</h4>
           <div class="row">
             <div class="three columns" id="opportunity-container">
-              <h5>Opportunity Score</h5>
-              <span id="opportunity-score">65</span>
+              <h5>Opportunity Index</h4>
             </div>
             <div class="nine columns">
               <div id="map-chart"></div>
-            </div> 
+            </div>
+            
           </div>
         </div>
-      </div>
-    </div>
 
-    <!-- Domains -->
-    <div id="domain-titles" class="row">
-      <div id="title-economic" class="three columns"><h5>Economic</h5></div>
-      <div id="title-education" class="three columns"><h5>Education</h5></div>
-      <div id="title-health" class="three columns"><h5>Health</h5></div>
-      <div id="title-family" class="three columns"><h5>Family</h5></div>
-    </div>
-
-    <div class="row">
-      <div class="twelve columns" id="main-chart-container">
-
-          <button class="button factor-button" value="count">Count</button>
-          <button class="button factor-button" value="pct">Percent</button>
-          <button class="button factor-button" value="rank">Rank</button>
-        
-        <div class="eleven columns" id="main-chart">
-        <div id="small-multiples"></div>
+        <div class="eleven columns" id="main-chart-container">
+          <h4>Main Chart Container</h4>
+          <button class="button-primary factor-button" value="count">Count</button>
+          <button class="button-primary factor-button" value="pct">Percent</button>
+          <button class="button-primary factor-button" value="rank">Rank</button>
+          <div class="eleven columns" id="main-chart">
+          <div id="small-multiples"></div>
+          </div>
         </div>
+   
       </div>
     </div>
-   
   </div>
-
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
