@@ -99,8 +99,15 @@ d3.json("data/stateScores.json", function(error,data) {
 }) 
 
 function clicked(d) {
-    // console.log(d.properties.name);
-    state = d.properties.name
+    console.log(d.properties.value);
+
+    
+    state = d.properties.name;
+    var oppScore = d.properties.value;
+    
+    d3.select("#opportunity-score").html(Math.round(oppScore));
+    d3.select("#opportunity-state").html(state);
+
       var x, y, k;
 
       if (d && centered !== d) {
