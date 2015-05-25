@@ -14,6 +14,11 @@ body {
 	color: #fff;
 }
 
+#search-input {
+  width: 120px;
+  height: 20px;
+}
+
 #main-chart-container {
 }
 
@@ -103,6 +108,17 @@ body {
 
 #domain-titles div {
 	cursor: pointer;
+}
+
+div#glyphs div {
+  display: inline-block;
+  padding: 10px 10px;
+  float: right;
+  color: #595959;
+}
+
+div#glyphs div:hover {
+  color: #E86421;
 }
 
 .container {
