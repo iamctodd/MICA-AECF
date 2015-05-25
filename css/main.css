@@ -58,11 +58,12 @@ body {
 }
 
 #opportunity-score {
-	font-size: 9em;
+	font-size: 10em;
 	font-weight: bolder;
 	font-family: Arial;
 	display: block;
 	text-align: center;
+	margin-bottom: 1px;
 }
 
 #domain-titles {
@@ -115,7 +116,7 @@ h1 {
 
 #lead p {
   color: #444;
-  font-family: Georgia,Palatino,serif;
+  font-family: Arial, sans-serif;
   font-size: 1.0em;
   line-height: 1.4em;
 }
@@ -130,6 +131,7 @@ h1 {
 
 svg {
   font-size: 10px;
+  font-family: Arial;
 }
 
 .background {
@@ -138,24 +140,29 @@ svg {
 
 .area.economic{
   fill: #118B7E;
+  opacity: 0.15;
 }
 .area.family{
   fill: #D01F42;
+  opacity: 0.15;
 }
 .area.education{
   fill: #752A8E;
+  opacity: 0.15;
 }
 .area.health{
   fill: #2176BC;
+  opacity: 0.15;
 }
 .area.overall{
   fill: #E9AF1D;
+  opacity: 0.15;
 }
 
 .line {
   fill: none;
-  stroke: #74736c;
-  stroke-width: 1.4px;
+  stroke: #118B7E;
+  stroke-width: 3px;
 }
 
 .title {
@@ -216,99 +223,17 @@ path.active {
 	text-transform: capitalize;
 }
 
-
-/*********** CTODD ****************/
 .navbar {
   background-color: #E86421;
   padding: 0px;
   margin: 0px;
+  }
 
 a {
   color: #1EAEDB; }
 a:hover {
   color: #0FA0CE; }
   
-.header {
-  margin-top: 1rem;
-  text-align: center; }
-.value-prop {
-  margin-top: 1rem; }
-.value-props {
-  margin-top: 4rem;
-  margin-bottom: 4rem; }
-.docs-header {
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  letter-spacing: .2rem;
-  font-weight: 600; }
-.docs-section {
-  border-top: 1px solid #eee;
-  padding: 4rem 0;
-  margin-bottom: 0;}
-.value-img {
-  display: block;
-  text-align: center;
-  margin: 2.5rem auto 0; }
-.example-grid .column,
-.example-grid .columns {
-  background: #EEE;
-  text-align: center;
-  border-radius: 4px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  height: 30px;
-  line-height: 30px;
-  margin-bottom: .75rem;
-  font-weight: 600;
-  letter-spacing: .1rem; }
-.docs-example .row,
-.docs-example.row,
-.docs-example form {
-  margin-bottom: 0; }
-.docs-example h1,
-.docs-example h2,
-.docs-example h3,
-.docs-example h4,
-.docs-example h5,
-.docs-example h6 {
-  margin-bottom: 1rem; }
-.heading-font-size {
-  font-size: 1.2rem;
-  color: #999;
-  letter-spacing: normal; }
-.code-example {
-  margin-top: 1.5rem;
-  margin-bottom: 0; }
-.code-example-body {
-  white-space: pre;
-  word-wrap: break-word }
-.example {
-  position: relative; 
-  margin-top: 4rem; }
-.example-header {
-  font-weight: 600;
-  margin-top: 1.5rem;
-  margin-bottom: .5rem; }
-.example-description {
-  margin-bottom: 1.5rem; }
-.example-screenshot-wrapper {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  border-radius: 6px;
-  border: 1px solid #eee;
-  height: 250px; }
-.example-screenshot {
-  width: 100%;
-  height: auto; }
-.example-screenshot.coming-soon {
-  width: auto;
-  position: absolute;
-  background: #eee;
-  top: 5px;
-  right: 5px;
-  bottom: 5px;
-  left: 5px; }
 .navbar {
   display: none; }
 
@@ -370,14 +295,5 @@ a:hover {
     color: #222; }
   .navbar-link.active {
     color: #33C3F0; }
-  .has-docked-nav .navbar {
-    position: fixed;
-    top: 0;
-    left: 0; }
-  .has-docked-nav .navbar-spacer {
-    display: block; }
-  /* Re-overiding the width 100% declaration to match size of % based container */
-  .has-docked-nav .navbar > .container {
-    width: 90%; }
 }
 

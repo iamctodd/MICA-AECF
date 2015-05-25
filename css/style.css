@@ -10,7 +10,9 @@ background-color: #E86421;
 }
 .navbar > .container {
 width: 90%; 
-margin-left: 50px;}
+margin-left: 50px;
+padding-bottom: 100px;
+}
 .navbar-list {
 list-style: none;
 margin-bottom: 0; 
@@ -30,18 +32,10 @@ line-height: 6.5rem;
 color: #fff; }
 .navbar-link:hover {
 color: #F7EED4; }
-.has-docked-nav .navbar {
-position: fixed;
-top: 0;
-left: 0; }
-.has-docked-nav .navbar-spacer {
-display: block; }
-/* Re-overiding the width 100% declaration to match size of % based container */
-.has-docked-nav .navbar > .container {
-width: 90%; }
     
 /* Story Ribbon */
 	.story {
+		padding-top: 10px;
 		top: 0;
 		margin-top: 0px;
 		line-height: 0.7rem;
@@ -65,7 +59,25 @@ width: 90%; }
 		margin-after: 0.33em;
 		font-weight: bold;
 	}
-  
+	.story:hover {
+		background-color: rgba(247, 238, 212, 0.5);
+	}
+
+/* Domain Areas */
+	.inactive {
+		opacity: 0.4;
+		}
+	.inactive:hover {
+		opacity: 1.0;
+		}
+	
+	
+.subtext {
+	font-size: 1.0rem;
+	line-height: 0.5rem;
+	text-align: center;
+}
+    
     
     
 /* Popover */
