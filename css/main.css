@@ -22,6 +22,7 @@ body {
 }
 
 #map-chart {
+  padding-left: 80px;
 }
 
 #map-chart .background {
@@ -38,11 +39,19 @@ body {
 	color: #404040;
 }
 
+#opportunity-container h3 {
+  padding-top: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 #opportunity-container h5 {
-	text-align: center;
-	text-transform: uppercase;
-	padding-top: 67px;
-	margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  background-color: #C89B05;
+  color: #fff;
 }
 
 #opportunity-score {
