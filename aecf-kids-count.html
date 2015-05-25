@@ -21,7 +21,9 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -50,9 +52,9 @@
 
     <div class="row">
     
-      <div class="four columns">
+      <div class="four columns story">
 
-        <article class="story theme-summary">
+        <article class="theme-summary">
           <div class="thumb">
           <img src="img/kid-needs-more.png" alt="">
           </div>
@@ -62,8 +64,8 @@
 
       </div>
       
-      <div class="four columns">
-        <article class="story theme-summary">
+      <div class="four columns story">
+        <article class="theme-summary">
           <div class="thumb">
           <img src="img/family.png" alt="">
           </div>
@@ -72,8 +74,8 @@
         </article>
       </div>
 
-      <div class="four columns">
-        <article class="story theme-summary">
+      <div class="four columns story">
+        <article class="theme-summary">
           <div class="thumb">
           <img src="img/class.png" alt="">
           </div>
@@ -91,7 +93,8 @@
             <div class="three columns" id="opportunity-container">
               <h3 id="opportunity-state">United States</h3>
               <h5>Opportunity Score</h5>
-              <span id="opportunity-score">65</span>
+              <p id="opportunity-score">65</p>
+              <p class="subtext">out of 100</p>
             </div>
             <div class="nine columns">
               <div id="map-chart"></div>
@@ -110,15 +113,16 @@
     </div>
 
     <div class="row">
-      <div class="twelve columns" id="main-chart-container">
-
+      <div id="main-chart-container">	
           <button class="button factor-button" value="count">Count</button>
           <button class="button factor-button" value="pct">Percent</button>
           <button class="button factor-button" value="rank">Rank</button>
-        
-        <div class="eleven columns" id="main-chart">
-        <div id="small-multiples"></div>
         </div>
+    </div> 
+    
+    <div class="row">
+      <div class="twelve columns" id="main-chart">
+        <div id="small-multiples"></div>
       </div>
     </div>
    
