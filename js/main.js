@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+	$("button.button.factor-button").click(function(e){
+		e.preventDefault();	
+		factor = this.value;
+		smallMults(state,factor);
+		return false;
+	})
+
   // Variables
   var $codeSnippets = $('.code-example-body'),
       $nav = $('.navbar'),
@@ -96,10 +103,5 @@ $(document).ready(function() {
 var state = "United States",
 	factor = "count";
 
-$("#main-chart-container .factor-button").click(function(e){
-	e.preventDefault();	
-	factor = this.value;
-	smallMults(state,factor);
-	return false;
-})
+
 

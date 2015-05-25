@@ -81,6 +81,7 @@ d3.json("data/stateScores.json", function(error,data) {
                .append("path")
                .attr("d", path)
                .attr("id",function(d,i){ return d.properties.name; })
+               .classed("active", !oneBar.classed("active"))
                .style("fill", function(d) {
                     //Get data value
                     var value = d.properties.value;

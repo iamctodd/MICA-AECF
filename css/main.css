@@ -3,8 +3,11 @@ body {
 }
 
 #main-display {
-	color: #fff;
-	margin-bottom: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  background-color: #FFFEFA;
+  padding: 10px;
+  border: 1px solid #D0D0D0;
 }
 
 #storyboard {
@@ -174,6 +177,15 @@ svg {
 .hidden {
   display:none;
   opacity: 0.0;
+}
+
+path.active {
+  fill: #6C560E !important;
+  stroke-width: .5px;
+  stroke: #453709;
+  stroke-dasharray: 1 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 #button-wrap {
