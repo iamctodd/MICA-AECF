@@ -71,6 +71,12 @@ color: #F7EED4; }
 		opacity: 1.0;
 		}
 	
+/* Map Shading */
+
+.maps {
+	background-color: background-color: rgba(247, 238, 212, 0.5);
+	}
+
 	
 .subtext {
 	font-size: 1.0rem;
