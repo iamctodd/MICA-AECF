@@ -25,21 +25,22 @@ body {
 }
 
 #map-chart {
-  padding-left: 80px;
+  /*padding-left: 80px;*/
 }
 
 #map-chart .background {
 	/*fill: #005293;*/
 }
 
-#main-chart-container button.button {
+#main-chart-buttons button.button {
 	background-color: #fff;
-  	float: right;
-  	margin: 0 3px;
+	float: right;
+	margin: 0 3px;
 }
 
 #opportunity-container {
 	color: #404040;
+  padding-left: 25px;
 }
 
 #opportunity-container h3 {
@@ -55,6 +56,9 @@ body {
   margin: 0;
   background-color: #C89B05;
   color: #fff;
+  font-size: 1.9em;
+  line-height: 1.2em;
+  padding: 16px 5px;
 }
 
 #opportunity-score {

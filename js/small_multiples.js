@@ -10,7 +10,7 @@
 
   SmallMultiples = function() {
     var area, bisect, caption, chart, circle, curYear, data, format, height, line, margin, mousemove, mouseout, mouseover, setupScales, width, xScale, xValue, yAxis, yScale, yValue;
-    width = 140;
+    width = 170;
     height = 120;
     margin = {
       top: 15,
