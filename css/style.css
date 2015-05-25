@@ -1,37 +1,38 @@
+/* Navbar */
 .navbar + .docs-section {
     border-top-width: 0; }
 .navbar,
 .navbar-spacer {
-display: block;
-width: 100%;
-height: 6.5rem;
-z-index: 99;
-background-color: #E86421;
+	display: block;
+	width: 100%;
+	height: 6.5rem;
+	z-index: 99;
+	background-color: #E86421;
 }
 .navbar > .container {
-width: 90%; 
-margin-left: 50px;
-padding-bottom: 100px;
+	width: 80%; 
+	margin-left: 6rem;
+	padding-bottom: 100px;
 }
 .navbar-list {
-list-style: none;
-margin-bottom: 0; 
-margin-left: 0.5rem;}
+	list-style: none;
+	margin-bottom: 0; 
+	margin-left: 0.5rem;}
 .navbar-item {
-position: relative;
-float: left;
-margin-bottom: 0; }
+	position: relative;
+	float: left;
+	margin-bottom: 0; }
 .navbar-link {
-text-transform: uppercase;
-font-size: 11px;
-font-weight: 600;
-letter-spacing: .2rem;
-margin-right: 35px;
-text-decoration: none;
-line-height: 6.5rem;
-color: #fff; }
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	margin-right: 35px;
+	text-decoration: none;
+	line-height: 6.5rem;
+	color: #fff; }
 .navbar-link:hover {
-color: #F7EED4; }
+	color: #F7EED4; }
     
 /* Story Ribbon */
 	.story {
@@ -74,7 +75,8 @@ color: #F7EED4; }
 /* Map Shading */
 
 .maps {
-	background-color: background-color: rgba(247, 238, 212, 0.5);
+	background-color: rgba(89, 89, 89, 0.1);
+	margin-top: 10px;
 	}
 
 	
@@ -84,7 +86,38 @@ color: #F7EED4; }
 	text-align: center;
 }
     
-    
+/* Footer */
+    footer {
+	    background-color: #595959;
+	    padding: 15px;
+	    color: #8a8a8a;
+		text-transform: uppercase;
+		font-size: 1.0rem;
+		padding-top: 25px;
+	    }
+	footer-nav {
+		width: 65%;
+		margin-left: 28px;
+		float: left;
+		margin-bottom: 30px;
+	}
+	
+	.footer ul li {
+		  list-style-type: none;
+		  margin-bottom: 12px;	  
+	}  
+	
+	.footer-nav ul {
+	  width: 25%;
+	  float: left;
+	}
+	
+	.footer-nav a {
+	  color: #8a8a8a;
+	  text-transform: uppercase;
+	  text-decoration: underline;
+	  font-weight: bold;
+	}
     
 /* Popover */
   .popover.open {
