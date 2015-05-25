@@ -1,5 +1,5 @@
 body {
-	/*background-color: #005293;*/
+	background-color: #FFFEFA;
 }
 
 #main-display {
@@ -7,7 +7,6 @@ body {
   margin-bottom: 20px;
   background-color: #FFFEFA;
   padding: 10px;
-  border: 1px solid #D0D0D0;
 }
 
 #storyboard {
@@ -34,8 +33,11 @@ body {
 
 #main-chart-buttons button.button {
 	background-color: #fff;
-	float: right;
-	margin: 0 3px;
+  float: right;
+  margin: 0 3px;
+  height: 20px;
+  padding: 0 20px;
+  line-height: 20px
 }
 
 #opportunity-container {
@@ -78,16 +80,16 @@ body {
 }
 
 #domain-titles #title-economic {
-	background-color: #118B7E;
+	border-bottom: 6px solid #118B7E;
 }
 #domain-titles #title-education {
-	background-color: #752A8E;
+	border-bottom: 6px solid #752A8E;
 }
 #domain-titles #title-health {
-	background-color: #2176BC;
+	border-bottom: 6px solid #2176BC;
 }
 #domain-titles #title-family {
-	background-color: #D01F42;
+	border-bottom: 6px solid #D01F42;
 }
 
 #domain-titles h5 {
@@ -95,7 +97,7 @@ body {
   padding: 0;
   margin: 12px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   font-weight: bold;
 }
 
