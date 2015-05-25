@@ -190,6 +190,7 @@ svg {
   opacity: 0.0;
 }
 
+
 path.active {
   fill: #6C560E !important;
   stroke-width: .5px;
